@@ -4,13 +4,33 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>io.github.velozninja</groupId>
     <artifactId>NativeImports</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
+
+    <name>NativeImports</name>
+    <description>Java library for importing and calling C functions</description>
+    <url>https://github.com/velozninja/NativeImports</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/license/mit</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>velozninja</id>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/velozninja/NativeImports</url>
+        <connection>scm:git:git://github.com/velozninja/NativeImports.git</connection>
+        <developerConnection>scm:git:ssh://github.com/velozninja/NativeImports.git</developerConnection>
+    </scm>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
