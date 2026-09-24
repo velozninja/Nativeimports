@@ -10,7 +10,7 @@ Add this to the pom.xml file.
 <dependency>
     <groupId>io.github.velozninja</groupId>
     <artifactId>NativeImports</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.1</version>
 </dependency>
 
 ````
