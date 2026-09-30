@@ -10,7 +10,7 @@ Add this to the pom.xml file.
 <dependency>
     <groupId>io.github.velozninja</groupId>
     <artifactId>NativeImports</artifactId>
-    <version>1.1.1</version>
+    <version>1.2.1</version>
 </dependency>
 
 ````
@@ -23,6 +23,7 @@ Use the CNative class to utilize the feature provided by the library. **This lib
 - LONG
 - FLOAT
 - DOUBLE
+- STRING
 
 ### How to use the methods?
 To use the methods of the class containing the main resources (CNative), refer to the topics below for guidance.
@@ -104,6 +105,8 @@ The result will display the value 30 in the console.
 ````terminaloutput
 30
 ````
+## observation
+If you pass the wrong parameter types to the C function, the results will differ from what is expected.
 
 
 

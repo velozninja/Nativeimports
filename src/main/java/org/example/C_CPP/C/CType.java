@@ -6,7 +6,8 @@ public enum CType {
     INT(ValueLayout.JAVA_INT),
     LONG(ValueLayout.JAVA_LONG),
     FLOAT(ValueLayout.JAVA_FLOAT),
-    DOUBLE(ValueLayout.JAVA_DOUBLE);
+    DOUBLE(ValueLayout.JAVA_DOUBLE),
+    STRING(ValueLayout.ADDRESS);
     // Stores the memory layout associated with the C type.
     private final ValueLayout layout;
     // Initializes a C type with its corresponding memory layout.
